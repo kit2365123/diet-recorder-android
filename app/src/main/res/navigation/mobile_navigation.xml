@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.expensetracker.ui.home.HomeFragment"
+        android:label="fragment_home_list"
+        tools:layout="@layout/home_fragment_item_list" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.expensetracker.ui.record.RecordFragment"
+        android:label="record_fragment_item_list"
+        tools:layout="@layout/record_fragment_item_list" />
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="com.example.expensetracker.StatisticFragment"
+        android:label="fragment_statistic"
+        tools:layout="@layout/fragment_statistic" />
+</navigation>

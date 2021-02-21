@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49E1EC</color>
+    <color name="colorPrimaryDark">#49E1EC</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="iconColor">#ffffff</color>
+    <color name="listItemColor">#ffffff</color>
+    <color name="listBackground">#E9E9E9</color>
+    <color name="optionBackground">#49E1EC</color>
+    <color name="cancelButtonBackground">#FF5858</color>
+    <color name="saveButtonBackground">#54FF79</color>
+    <color name="optionTextColor">#ffffff</color>
+
+</resources>
