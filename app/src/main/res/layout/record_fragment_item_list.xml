@@ -28,21 +28,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/totolRecord"
+            android:id="@+id/totalRecord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
             android:fontFamily="@font/ubuntu_regular"
-            android:text="Totol Records: 38"
+            android:text="Total Records: 38"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textPurchaseRecord" />
 
         <TextView
-            android:id="@+id/Date"
+            android:id="@+id/dateRange"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -55,13 +55,12 @@
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/totolRecord" />
-
+            app:layout_constraintTop_toBottomOf="@+id/totalRecord" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recordRecyclerView"
+        android:id="@+id/allRecordRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/listBackground"
@@ -74,16 +73,3 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-<!--<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:id="@+id/list"-->
-<!--    android:name="com.example.expensetracker.ui.record.RecordFragment"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="match_parent"-->
-<!--    android:layout_marginLeft="16dp"-->
-<!--    android:layout_marginRight="16dp"-->
-<!--    app:layoutManager="LinearLayoutManager"-->
-<!--    tools:context=".ui.record.RecordFragment"-->
-<!--    tools:listitem="@layout/record_fragment_item" />-->

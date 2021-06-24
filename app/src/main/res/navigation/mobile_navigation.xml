@@ -6,17 +6,27 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.expensetracker.ui.home.HomeFragment"
+        android:name="com.example.expensetracker.fragments.home.HomeFragment"
         android:label="fragment_home_list"
         tools:layout="@layout/home_fragment_item_list" />
     <fragment
         android:id="@+id/recordFragment"
-        android:name="com.example.expensetracker.ui.record.RecordFragment"
+        android:name="com.example.expensetracker.fragments.record.RecordFragment"
         android:label="record_fragment_item_list"
         tools:layout="@layout/record_fragment_item_list" />
     <fragment
         android:id="@+id/statisticFragment"
-        android:name="com.example.expensetracker.StatisticFragment"
+        android:name="com.example.expensetracker.fragments.StatisticFragment"
         android:label="fragment_statistic"
         tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.expensetracker.fragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.expensetracker.fragments.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
 </navigation>

@@ -12,6 +12,11 @@
         android:title="@string/record" />
 
     <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search" />
+
+    <item
         android:id="@+id/statisticFragment"
         android:icon="@drawable/chart_icon"
         android:title="@string/statistic" />
@@ -20,5 +25,6 @@
         android:id="@+id/settingFragment"
         android:icon="@drawable/setting_icon"
         android:title="@string/setting" />
+
 
 </menu>

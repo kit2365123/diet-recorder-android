@@ -17,6 +17,7 @@
         android:layout_height="120dp"
         android:layout_margin="10dp"
         app:riv_corner_radius="8dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/broken_image_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

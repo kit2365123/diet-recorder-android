@@ -9,4 +9,12 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+
+    <string-array name="active_array">
+        <item>Sedentary (office job)</item>
+        <item>Light Exercise (1–2 days/week)</item>
+        <item>Moderate Exercise (3–5 days/week)</item>
+        <item>Heavy Exercise (6-7 days/week)</item>
+        <item>Athlete(2x per day)</item>
+    </string-array>
 </resources>

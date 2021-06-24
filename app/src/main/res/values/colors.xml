@@ -10,5 +10,6 @@
     <color name="cancelButtonBackground">#FF5858</color>
     <color name="saveButtonBackground">#54FF79</color>
     <color name="optionTextColor">#ffffff</color>
-
+    <color name="lineColor">#d9dddc</color>
+    <color name="sunYellow">#ffe87c</color>
 </resources>
