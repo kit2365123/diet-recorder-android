@@ -1,4 +1,5 @@
 # Diet Reocrd App (Android)
+![poster](https://user-images.githubusercontent.com/52521558/124541662-79fa5480-de54-11eb-9951-dd85937efc3c.png)
 The app can help users to record their daily diet and provide analysis based on their records, helping users to keep track of their diets. This app will make use of Google AI technology to help to analyze the record from the user, identify what kind of food the user mostly eats. This can improve the user experience of the application and increase the user’s willingness to keep records of their diets every day. The app will also provide a search function to allow the user to search their previous records.
 
 ## Home Screen
